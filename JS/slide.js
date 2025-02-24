@@ -61,3 +61,18 @@ slide3.addEventListener("click", () => {
     slide2_1.style.opacity = "0";
     slide2_2.style.opacity = "0";
 });
+
+
+//  second slider on second section
+
+const pre = document.getElementById('pre');
+const next = document.getElementById('next');
+const btnCon = document.getElementById('card-con');
+
+pre.addEventListener('click', () => {
+    btnCon.scrollBy({left: -500, behavior: 'smooth'});
+});
+
+next.addEventListener('click', () => {
+    btnCon.scrollBy({left: 500, behavior: 'smooth'});
+});

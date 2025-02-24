@@ -1,0 +1,181 @@
+@media only screen and (min-width: 770px) {
+    .home-page{
+        height: 800px;
+    }
+    .slider-con{
+        height: 650px;
+    }
+    .figrue-card{
+        flex: 0 0 350px;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .home-page{
+        height: 1000px;
+    }
+    .slider-con{
+        height: 800px;
+    }
+    .slider{
+        height: 50%;
+        align-items: center;
+    }
+    #slide1-1{
+        top: 0;
+        left: 0;
+    }
+    #slide1-2{
+        top: 50%;
+        left: 0;
+    }
+
+    #slide2-1{
+        top: 0;
+        left: 0;
+    }
+    #slide2-2{
+        top: 50%;
+        left: 0;
+    }
+
+    #slide3-1{
+        top: 0;
+        left: 0;
+    }
+    #slide3-2{
+        top: 50%;
+        left: 0;
+    }
+
+    .figrue1 {
+        max-width: 180px;
+    }
+    .figrue2 {
+        max-width: 300px;
+        padding-bottom: 50px;
+    }
+    .figrue3 {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 516px){
+    .home-page{
+        height: 1100px;
+    }
+    .navul{
+        display: none !important;
+    }
+    .slider-con{
+        height: 950px;
+    }
+}
+
+@media only screen and (max-width: 878px){
+    .tb1 img{
+        right: -100px;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    .tb1,
+    .tb2,
+    .tb3 {
+        height: 400px;
+        padding: 10px 40px;
+    }
+
+    .tb1 img {
+        width: 500px;
+    }
+
+    .tb2 img {
+        width: 300px;
+    }
+
+    .tb3 img {
+        width: 470px;
+    }
+
+    .tb1 h2,
+    .tb2 h2,
+    .tb3 h2 {
+        font-size: 40px;
+    }
+
+    .tb1 h4,
+    .tb2 h4,
+    .tb3 h4 {
+        font-size: 24px;
+    }
+
+    .tb1 p,
+    .tb2 p,
+    .tb3 p {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .tb1,
+    .tb2,
+    .tb3 {
+        height: 350px;
+        padding: 10px 30px;
+    }
+    .tb1 h2,
+    .tb2 h2,
+    .tb3 h2 {
+        font-size: 30px;
+    }
+
+    .tb1 h4,
+    .tb2 h4,
+    .tb3 h4 {
+        font-size: 20px;
+    }
+
+    .tb1 p,
+    .tb2 p,
+    .tb3 p {
+        font-size: 18px;
+    }
+    .tb1 img {
+        width: 450px;
+        right: -88px;
+    }
+
+    .tb2 img {
+        width: 250px;
+    }
+
+    .tb3 img {
+        width: 340px;
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    .tb1,
+    .tb2,
+    .tb3 {
+        height: 300px;
+        padding: 10px 15px;
+    }
+
+    .tb1 img {
+        width: 400px;
+        top: -60px;
+        right: -98px;
+    }
+
+    .tb2 img {
+        width: 200px;
+        top: 20px;
+    }
+
+    .tb3 img {
+        width: 340px;
+        right: -70px;
+    }
+}
